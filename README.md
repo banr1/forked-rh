@@ -1,6 +1,8 @@
 # rh
 
-This repository holds a copy of a Lean 4 project distributed as the archive `lean.tar.gz` in 14 parts.  The four-page note at <https://alpo.ge/remark.pdf> lists the parts in its first footnote.  In that note, the author states that, working with Claude, they found a proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis and formalized it in Lean without assumptions.  The note does not name its author, and its PDF metadata gives a creation date of 2026-11-20.
+Author: [Levent Alpöge](https://alpo.ge/cv.pdf)
+
+This repository holds a copy of a Lean 4 project by Levent Alpöge, distributed as the archive `lean.tar.gz` in 14 parts.  Alpöge's four-page note at <https://alpo.ge/remark.pdf> lists the parts in its first footnote.  In that note, Alpöge reports finding, with Claude, a proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis, and formalizing it in Lean without assumptions.  The note's PDF metadata gives a creation date of 2026-11-20.
 
 ## Provenance
 
@@ -13,7 +15,7 @@ This copy comes from the parts at `https://alpo.ge/lean.tar.gz.part01` through `
 
 ## Status
 
-Publishing this copy did not include building the project or reading its proofs.  The claim of a proof belongs to the note's author and has not been checked here.  The `Main` library has roots `lean/src/Statements.lean` and `lean/src/Main.lean`, which are the places to start an evaluation of what the project states and whether it depends on `sorry` or added axioms.
+Publishing this copy did not include building the project or reading its proofs.  The claim of a proof belongs to Alpöge and has not been checked here.  The `Main` library has roots `lean/src/Statements.lean` and `lean/src/Main.lean`, which are the places to start an evaluation of what the project states and whether it depends on `sorry` or added axioms.
 
 | Item | Value |
 |------|-------|
