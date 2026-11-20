@@ -6,7 +6,7 @@ This repository holds a copy of a Lean 4 project by Levent Alpöge, distributed 
 
 ## Provenance
 
-This copy comes from the parts at `https://alpo.ge/lean.tar.gz.part01` through `https://alpo.ge/lean.tar.gz.part14`, downloaded on 2026-11-20 and joined in numeric order.  The directory `lean/` holds the contents of the joined archive without modification, and this README is the only added file.  The archive includes no license file.
+This copy comes from the parts at `https://alpo.ge/lean.tar.gz.part01` through `https://alpo.ge/lean.tar.gz.part14`, downloaded on 2026-11-20 and joined in numeric order.  The directory `lean/` holds the contents of the joined archive without modification, and the only added files are this README and the image `grh-timeline.png`.  The archive includes no license file.
 
 | File | Bytes | SHA-256 |
 |------|-------|---------|
@@ -23,3 +23,11 @@ Publishing this copy did not include building the project or reading its proofs.
 | Mathlib | commit `0df444a360eaa60ab8c11dca51a86af692955474` |
 | Lean source files | 175,187 |
 | Source size | 983 MB |
+
+## Timeline diagram
+
+![Timeline of the 20 entries in the note, with conjectured dependencies](grh-timeline.png)
+
+Fable (Claude Fable 5.2, an Anthropic model) created this image from the timeline in section 2 of the note.  Horizontal distance is proportional to elapsed days, from 6 October to 16 November 2026.  Each numbered node is one timeline entry, numbered as in the note, and the labels are short paraphrases of the entries.  Entries with the same date share a vertical line, and their vertical order carries no meaning.
+
+The arrows are Fable's conjectures about which entry uses which.  The note states no dependencies, and Alpöge has not reviewed the arrows.  Solid blue arrows follow wording in the note that links two entries.  Dashed brown arrows are inferences from the mathematics that the entries name, and several are weak.  Fable did not read the Lean proofs to make the diagram, so the arrows do not describe the import structure of `lean/`.  The image has two drawing faults: arrows pass under some labels, and the arrows among the entries dated 15 November overlap.
